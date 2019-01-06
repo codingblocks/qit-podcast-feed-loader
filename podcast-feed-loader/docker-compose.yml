@@ -9,13 +9,3 @@ services:
       dockerfile: Dockerfile
       args:
         NODE_ENV: production
-        PORT: ${PORT}
-    environment:
-      - 'PORT=${PORT}'
-    ports:
-      - '${PORT}:${PORT}'
-    networks:
-      - codingblocks
-networks:
-  codingblocks:
-    external: true
