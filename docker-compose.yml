@@ -1,9 +1,8 @@
 version: '3'
 
 services:
-  api:
-    env_file: .env
-    container_name: "coding-blocks-feed-loader"
+  loader:
+    container_name: "qit-podcast-feed-loader"
     build:
       context: .
       dockerfile: Dockerfile

@@ -30,6 +30,29 @@ Command to stop container:
 docker-compose stop
 ```
 
+### Running without Docker
+
+We recommend you run this with Docker, but you can also do things the old fashioned way:
+
+```;bash
+npm install && npm start
+```
+
+### Settings
+
+There are a couple environment settings you can set in order to actually update a search engine. Currently the only supported engine is Azure.
+
+You can run the project without these settings. It won't actually update anything, but it's a good test.
+
+```;bash
+SEARCH_PROVIDER="Azure"
+AZURE_SEARCH_INDEX_NAME=“podcasts"
+AZURE_SEARCH_ENDPOINT="https://podcasts.search.windows.net"
+AZURE_SEARCH_ADMIN_API_KEY="YOUR_SECRET_HERE"
+AZURE_SEARCH_API_VERSION="2017-11-11-Preview"
+SEARCH_OLDEST_INDEX_DATE='2018-12-29'
+```
+
 ## Huge thanks to all of the contributors!
 - [Aaron Clawson](https://github.com/MadVikingGod)
 - [Adam Lantz](https://github.com/AdamLantz)
