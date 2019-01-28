@@ -7,7 +7,7 @@ This is the part of the product that is responsible for importing the data.
 
 It loads podcast feed urls from a file, normalizes them, and then updates them in a search engine. Currently only supports Azure Search.
 
-Read more about it here: [Podcast Feed Loader on the wiki](https://github.com/codingblocks/podcast-app/wiki/Podcast-Feed-Loader)
+Read more about it HERE: [Podcast Feed Loader on the wiki](https://github.com/codingblocks/podcast-app/wiki/Podcast-Feed-Loader)
 
 
 ### Running with Docker
