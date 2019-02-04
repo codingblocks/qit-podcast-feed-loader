@@ -187,6 +187,18 @@
       "forceHttps": true
     },
     {
+      "titleCleanser": "null",
+      "url": "https://feeds.transistor.fm/devpath-fm",
+      "title": "Dev Path FM",
+      "forceHttps": true
+    },
+    {
+      "titleCleanser": "null",
+      "url": "https://thedotnetcorepodcast.libsyn.com/rss",
+      "title": "The .NET Core Podcast",
+      "forceHttps": true
+    },
+    {
       "titleCleanser": null,
       "url": "https://feeds.feedburner.com/esc-podcast",
       "title": "Eat Sleep Code",
@@ -292,6 +304,20 @@
       "titleCleanser": "^\\d+(?:\\s-)?\\s",
       "url": "https://feeds.feedwrench.com/react-native-radio.rss",
       "title": "React Native Radio",
+      "forceHttps": false
+    },
+    {
+      "titleCleanser": null,
+      "url": "https://rss.simplecast.com/podcasts/6265/rss",
+      "title": "React Podcast",
+      "forceHttps": false
+    },
+    
+
+    {
+      "titleCleanser": "^\\d+(?:\\s-)?\\s",
+      "url": "https://rss.simplecast.com/podcasts/7265/rss",
+      "title": "Real Talk JavaScript",
       "forceHttps": false
     },
     {
@@ -439,6 +465,12 @@
     {
       "url": "https://qablog.practitest.com/podcast/",
       "title": "Testing Podcast"
+    },
+    {
+      "titleCleanser": null,
+      "url": "https://www.thundernerds.io/feed/podcast/",
+      "title": "Thunder Nerds",
+      "forceHttps": true
     },
     {
       "titleCleanser": "^AB Testing - \\d+:\\s",

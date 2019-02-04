@@ -35,7 +35,10 @@ docker-compose stop
 We recommend you run this with Docker, but you can also do things the old fashioned way:
 
 ```;bash
-npm install && npm start
+# Set environment variables (see below)
+cd app
+npm install
+npm start
 ```
 
 ### Settings
