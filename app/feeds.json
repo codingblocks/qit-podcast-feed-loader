@@ -312,8 +312,6 @@
       "title": "React Podcast",
       "forceHttps": false
     },
-    
-
     {
       "titleCleanser": "^\\d+(?:\\s-)?\\s",
       "url": "https://rss.simplecast.com/podcasts/7265/rss",
@@ -430,17 +428,17 @@
     },
     {
       "url": "http://securityinfive.libsyn.com/",
-      "title" : "Security In Five",
-      "forceHttps":false
+      "title": "Security In Five",
+      "forceHttps": false
     },
     {
-      "url":"https://www.ministryoftesting.com/dojo/lessons/talking-mentoring-with-melissa-eaden-and-martin-hynie",
-      "title":"Ministry of Testing Dojo"
+      "url": "https://www.ministryoftesting.com/dojo/lessons/talking-mentoring-with-melissa-eaden-and-martin-hynie",
+      "title": "Ministry of Testing Dojo"
     },
     {
       "url": "http://www.spreaker.com/user/perfbytes/",
       "title": "PerfBytes",
-      "forceHttps":false
+      "forceHttps": false
     },
     {
       "url": "http://relay.fm/parallel/",
@@ -451,8 +449,8 @@
       "title": "Humans of InfoSec"
     },
     {
-      "url":"https://joecolantonio.com/testtalks",
-      "title":"Test Talks"
+      "url": "https://joecolantonio.com/testtalks",
+      "title": "Test Talks"
     },
     {
       "url": "http://goodbadbuggy.libsyn.com/",
@@ -476,6 +474,54 @@
       "titleCleanser": "^AB Testing - \\d+:\\s",
       "url": "https://www.angryweasel.com/ABTesting/?feed=podcast",
       "title": "AB Testing",
+      "forceHttps": true
+    },
+    {
+      "titleCleanser": null,
+      "url": "https://feed.podbean.com/threefactorradio/feed.xml",
+      "title": "3factorRadio",
+      "forceHttps": true
+    },
+    {
+      "titleCleanser": "^Episode\\s+\\d+:\\s+",
+      "url": "https://feeds.fireside.fm/dotnetbytes/rss",
+      "title": ".NET Bytes",
+      "forceHttps": true
+    },
+    {
+      "titleCleanser": null,
+      "url": "https://feed.pippa.io/public/shows/5bb53314b10b31e41cebfbb3",
+      "title": "Frontier Podcast",
+      "forceHttps": true
+    },
+    {
+      "titleCleanser": null,
+      "url": "https://edaqaandstephane.net/episode/index.xml",
+      "title": "Edaqa and Stephane",
+      "forceHttps": true
+    },
+    {
+      "titleCleanser": "\\d+:\\s+",
+      "url": "https://lavieencode.libsyn.com/rss",
+      "title": "La Vie En Code",
+      "forceHttps": true
+    },
+    {
+      "titleCleanser": null,
+      "url": "https://anchor.fm/s/953b200/podcast/rss",
+      "title": "The Diff",
+      "forceHttps": true
+    },
+    {
+      "titleCleanser": "^\\w+\\s+\\d+\\s+-\\s+",
+      "url": "https://feeds.feedburner.com/CrossCuttingConcernsPodcast",
+      "title": "Cross Cutting Concerns",
+      "forceHttps": true
+    },
+    {
+      "titleCleanser": "^NDP\\d+:\\s+",
+      "url": "https://nosql.libsyn.com/rss",
+      "title": "The NoSQL Database Podcast",
       "forceHttps": true
     }
   ]
