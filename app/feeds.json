@@ -523,6 +523,12 @@
       "url": "https://nosql.libsyn.com/rss",
       "title": "The NoSQL Database Podcast",
       "forceHttps": true
+    },
+    {
+      "titleCleanser": null,
+      "url": "https://feed.podbean.com/tocodesoftware/feed.xml",
+      "title": "TpCode.Software",
+      "forceHttps": true
     }
   ]
 }
