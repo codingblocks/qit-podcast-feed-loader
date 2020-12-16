@@ -523,6 +523,11 @@
       "url": "https://nosql.libsyn.com/rss",
       "title": "The NoSQL Database Podcast",
       "forceHttps": true
-    }
+    },
+    {
+      "url": "https://devjourney.info",
+      "title": "Software Developers Journey",
+      "forceHttps": true      
+    },
   ]
 }
